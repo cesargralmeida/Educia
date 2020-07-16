@@ -1,3 +1,3 @@
-class PagesController < ApplicationController
+class LandingController < ApplicationController
   layout 'landing'
 end
