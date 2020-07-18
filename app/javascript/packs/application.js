@@ -3,7 +3,9 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 import 'bootstrap'
-import "@fortawesome/fontawesome-free/js/all";
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
