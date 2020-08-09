@@ -9,6 +9,8 @@ require("channels")
 require("jquery")
 
 import '../stylesheets/application.scss'
+import '../stylesheets/stylish-port/scss/stylish-portfolio.scss'
+import '../stylesheets/stylish-port/css/stylish-portfolio.css.scss'
 
 document.addEventListener("turbolinks:load", () => {
     $('[data-toggle="tooltip"]').tooltip()
