@@ -1,3 +1,6 @@
+import '../stylesheets/stylish-port/scss/stylish-portfolio.scss';
+import '../stylesheets/stylish-port/css/stylish-portfolio.css.scss'
+
 (function($) {
   "use strict"; // Start of use strict
 

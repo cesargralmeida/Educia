@@ -7,9 +7,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("jquery")
-require("packs/stylish-portfolio")
+require.context('../images', true)
 
-import "bootstrap";
 import "../stylesheets/application"
 import "@fortawesome/fontawesome-free/js/all";
 import "@fortawesome/fontawesome-free/js/brands";
