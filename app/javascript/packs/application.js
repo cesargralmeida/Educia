@@ -8,13 +8,11 @@ require("@rails/activestorage").start()
 require("channels")
 require("jquery")
 require.context('../images', true)
+require.context('../fonts', true)
+require.context('../javascripts', true)
 
-import "../stylesheets/application"
-import "@fortawesome/fontawesome-free/js/all";
-import "@fortawesome/fontawesome-free/js/brands";
-import "@fortawesome/fontawesome-free/js/solid";
-import "@fortawesome/fontawesome-free/js/v4-shims";
-import "@fortawesome/fontawesome-free/js/regular";
+import "../stylesheets/application.scss"
+import "../stylesheets/simple-line-icons.css.scss"
 
 document.addEventListener("turbolinks:load", () => {
     $('[data-toggle="tooltip"]').tooltip()
