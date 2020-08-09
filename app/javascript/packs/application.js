@@ -7,11 +7,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 require("jquery")
-require.context('../images', true)
-require.context('../fonts', true)
 
-import "../stylesheets/application.scss"
-import "../stylesheets/simple-line-icons.css.scss"
+import '../stylesheets/application.scss'
 
 document.addEventListener("turbolinks:load", () => {
     $('[data-toggle="tooltip"]').tooltip()
