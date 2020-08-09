@@ -9,7 +9,6 @@ require("channels")
 require("jquery")
 require.context('../images', true)
 require.context('../fonts', true)
-require.context('../javascripts', true)
 
 import "../stylesheets/application.scss"
 import "../stylesheets/simple-line-icons.css.scss"
