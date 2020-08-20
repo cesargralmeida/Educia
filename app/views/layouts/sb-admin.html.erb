@@ -9,15 +9,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'bootstrap', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'fontawesome', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'chart-js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'datatables', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'stylish-portfolio', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= render 'landing_navbar' %>
     <%= yield %>
-    <%= render 'landing_footer' %>
     <%# has to be after so the js works %>
-    <%= javascript_pack_tag 'stylish-portfolio', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'sb-admin', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'sb-admin-index', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>

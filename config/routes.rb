@@ -4,5 +4,10 @@ Rails.application.routes.draw do
   namespace :landing do
     get 'index'
     get 'about'
+    get 'login'
+  end
+
+  namespace :admin do
+    get 'index'
   end
 end
