@@ -1,4 +1,6 @@
 // Call the dataTables jQuery plugin
-$(document).ready(function() {
-  $('#dataTable').DataTable();
-});
+document.addEventListener("turbolinks:load", () => {
+  $(document).ready(function() {
+    $('#dataTable').DataTable();
+  });
+})
